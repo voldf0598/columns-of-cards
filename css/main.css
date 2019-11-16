@@ -1,9 +1,104 @@
 html {
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: Open Sans, sans-serif;
   line-height: 1.5;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+header {
+  background-color: #f2f2f2;
+}
+
+h1 {
+  font-family: Open Sans, sans-serif;
+  font-size: 2rem;
+  text-align: center;
+}
+
+div {
+  display: flex;
+  text-align: center;
+  font-size: .875rem;
+}
+
+img {
+  width: 100px;
+  align-items: center;
+  display: inline-block;
+}
+
+h2 {
+  font-size: 1rem;
+}
+
+.one {
+  border-left: 2px;
+  border-right: 2px;
+  border-top: 0;
+  border-bottom: 0;
+  border-style: solid;
+  border-color: #333;
+  background-color: #e2e2e2;
+  padding: .75rem;
+  text-align: center;
+  display: flex;
+  flex-flow: column;
+}
+
+.two {
+  border-right: 2px;
+  border-top: 0;
+  border-bottom: 0;
+  border-style: solid;
+  border-color: #333;
+  background-color: #ccc;
+  padding: .75rem;
+  text-align: center;
+  display: flex;
+  flex-flow: column;
+}
+
+.three {
+  border-right: 2px;
+  border-top: 0;
+  border-bottom: 0;
+  border-style: solid;
+  border-color: #333;
+  background-color: #aaa;
+  padding: .75rem;
+  text-align: center;
+  display: flex;
+  flex-flow: column;
+}
+
+.four {
+  border-left: 2px;
+  border-right: 2px;
+  border-top: 0;
+  border-bottom: 0;
+  border-style: solid;
+  border-color: #333;
+  background-color: #999;
+  padding: .75rem;
+  text-align: center;
+  display: flex;
+  flex-flow: column;
+}
+
+.btn-small {
+  display: flex;
+  padding: 1.5rem;
+  margin: 0 auto 1.5rem;
+  background-color: #333;
+  border-radius: .5rem;
+  text-decoration: none;
+  color: #fff;
+}
+
+p {
+  display: flex;
+  flex-flow: column;
 }
